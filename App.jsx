@@ -1,16 +1,16 @@
 import React, { useContext, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Dashboard from "./components/Dashboard";
-import Login from "./components/Login";
-import AddNewDoctor from "./components/AddNewDoctor";
-import Messages from "./components/Messages";
-import Doctors from "./components/Doctors";
+import Dashboard from "./pages/dashboard";
+import Login from "./pages/Login";
+import AddNewDoctor from "./pages/AddNewDoctor";
+import Messages from "./pages/Messages";
+import Doctors from "./pages/Doctors";
 import { Context } from "./main";
 import axios from "axios";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Sidebar from "./components/Sidebar";
-import AddNewAdmin from "./components/AddNewAdmin";
+import Sidebar from "./pages/Sidebar";
+import AddNewAdmin from "./pages/AddNewAdmin";
 import "./App.css";
 
 const App = () => {
