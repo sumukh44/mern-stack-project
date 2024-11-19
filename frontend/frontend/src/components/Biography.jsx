@@ -19,7 +19,7 @@ const Biography = ({imageUrl}) => {
               to health and wellness
           </p>
           <p>Established in 2024, we have quickly become a trusted healthcare provider</p>
-          <p>We are working on a MERN STACK PROJECT.</p>
+        
           <p>
           We specialize in a wide range of medical services, including 
           primary care, specialist consultations, and preventive health screenings.
